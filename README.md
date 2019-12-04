@@ -11,4 +11,5 @@ reboot mysql
 sudo service mysqld restart
 reboot www
 pm2 start www
+pm2 list --查看服务
 ```
